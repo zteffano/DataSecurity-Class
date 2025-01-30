@@ -7,6 +7,20 @@ Made for a school assignment in the class "Data Security"
 - `caesar.py`: Implementation of Caesar cipher with bruteforce capabilities
 - `vigenere.py`: Implementation of Vigenère cipher
 - `helpers.py`: Utility functions and character set definitions
+- `main.py`: Implementation of required functions for the assignment exercises
+- `test_main.py`: Basic pytest test suite verifying the core functionality
+
+## Assignment Information
+The main.py file contains implementations of the required functions from the assignment:
+
+caesarE(key, cleartext) and caesarD(key, ciphertext) for Caesar cipher
+vigE(key, cleartext) and vigD(key, ciphertext) for Vigenère cipher
+
+#### To run the tests:
+```bash 
+pytest test_main.py -v
+```
+The test suite provides basic verification of the core encryption/decryption functionality using pytest.
 
 ## Features
 - Multiple character sets (English, Danish)
