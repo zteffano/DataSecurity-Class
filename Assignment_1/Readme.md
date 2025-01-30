@@ -1,6 +1,7 @@
 # Simple Cipher Tools
 
-A collection of command-line tools for encrypting and decrypting text using Caesar and Vigenère ciphers. Supports multiple character sets including English and Danish
+A collection of command-line tools for encrypting and decrypting text using Caesar and Vigenère ciphers. Supports multiple character sets including English and Danish.
+
 Made for a school assignment in the class "Data Security"
 
 ## Files
@@ -95,8 +96,3 @@ python vigenere.py -f dkexit_vigmessage.txt -k DUH -d -o decrypted_vig.txt
 Available character sets:
 - English (en): a-z
 - Danish (da): a-z + æøå
-
-## Error Handling
-- Comprehensive error handling for file operations
-- Input validation for character sets and command-line arguments
-- Clear error messages for troubleshooting
