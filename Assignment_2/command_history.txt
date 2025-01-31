@@ -1,0 +1,22 @@
+
+gpg --output public_key.asc --export --armor <my@email>
+
+gpg --import <path_to_downloaded_public_key>
+
+gpg --list-keys arosano@protonmail.com
+
+gpg --edit-key arosano@protonmail.com
+
+gpg --encrypt --recipient arosano@protonmail.com --output SecEla.enc.txt message_to_niels.txt
+
+gpg --encrypt --recipient arosano@protonmail.com --output SecE1a.enc.txt message_to_niels.txt
+
+gpg --encrypt --recipient <my@email> --output SecE1.enc.txt message_to_niels.txt
+
+gpg --decrypt SecE1.enc.txt > decrypted.txt
+
+gpg --sign --output SecE2.sign.txt ds2_2_text.txt
+
+gpg --sign --output SecE2.sign.txt clearsign.txt
+
+gpg --detach-sign --output SecE4.det.sig.txt ds_2_4_script.py
