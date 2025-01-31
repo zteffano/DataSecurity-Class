@@ -1,0 +1,3 @@
+Her er den tekst jeg gerne vil have i vores intro til undervisningen:
+
+Modern cryptography is based on discoveries made in the late 60’s and 70’s. These principles have been implemented into software that has not changed substantially since then. The algorithms are well know by now, and on principle they must be. The element that makes ciphers har to crack are the keys involved. The longer the safer. The idea is that if it takes so long to crack the code, so to speak, that the result is no longer relevant, we have won.
