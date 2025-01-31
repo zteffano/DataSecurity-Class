@@ -121,6 +121,7 @@ def format_bruteforce_results(brute_results: List[Tuple[int, str, int, List[str]
                 "-" * 80
             ])
         else:
+            continue # Skip results with no matches
             output_lines.extend([
                 f"Shift {shift:2d} | No matches",
                 f"Text: {text[:100]}{'...' if len(text) > 100 else ''}",

@@ -56,7 +56,7 @@ if __name__ == "__main__":
     parser.add_argument('-d', '--decrypt', action='store_true', help='Decrypt mode')
     parser.add_argument('-c', '--charset', default='en',
                         choices=['en', 'da', 'de'],
-                        help='Character set to use (en=English, da=Danish, de=German)')
+                        help='Character set to use (en=English, da=Danish)')
     parser.add_argument('-o', '--output', help='Output file path (optional)')
 
     args = parser.parse_args()
