@@ -1,7 +1,10 @@
 /.idea/
+/.qodo/
 **__pycache__**
 **.pytest_cache**
 /venv/
 /Assignment_1/decrypted_vig.txt
 /Assignment_1/decrypted.txt
 /Assignment_1/encrypted.txt
+rockyou.txt
+test.db
