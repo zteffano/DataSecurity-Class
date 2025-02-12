@@ -4,9 +4,9 @@ A simple Python-based user registration and login system that checks passwords a
 
 ## Setup
 
-1. Install required Python packages:
+1. Install required Python packages from the root folder
 ```bash
-pip install bcrypt
+pip install -r ../requirements.txt 
 ```
 
 2. Get rockyou.txt:
