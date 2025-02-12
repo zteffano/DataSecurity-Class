@@ -224,7 +224,9 @@ if __name__ == "__main__":
             result = "Error: Invalid hash type. Use 'bcrypt' or 'sha256'"
     else:
         result = "Error: Invalid action. Use 'register' or 'login'"
-
-    print(result)
+    if result is None:
+        result = "error, please make sure you have the correct number of arguments"
+    else:
+        print(result)
     if action == "register":
         print("Checked against {} passwords".format(len(Rockyou._bad_passwords)))
